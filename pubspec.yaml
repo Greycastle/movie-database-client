@@ -1,6 +1,6 @@
 name: movie_database_client
 description: Dart client to search movies
-version: 1.0.0
+version: 1.0.1
 homepage: https://greycastle.se
 repository: https://github.com/Greycastle/movie-database-client
 
