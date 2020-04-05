@@ -1,4 +1,5 @@
 import 'package:movie_database_client/movie_database_client.dart';
+import 'package:movie_database_client/title_match.dart';
 
 import 'package:test/test.dart';
 
