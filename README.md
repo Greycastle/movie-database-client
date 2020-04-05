@@ -1,6 +1,6 @@
-# movie_database_client
+# Movie Database Client
 
-Dart client to search movies
+Dart client wrapping http://www.omdbapi.com/ to search movies.
 
 ## Getting Started
 
@@ -12,3 +12,9 @@ Then you can call the API like this:
 final client = new MovieDatabaseClient('your key');
 const results = await client.search('some title');
 ```
+
+## Running tests
+
+The tests require having an API key to use as well.
+
+Copy the `test/settings.example.json` to `test/settings.json` and update the key in their with your own key. 
