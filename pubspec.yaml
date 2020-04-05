@@ -1,5 +1,5 @@
 name: movie_database_client
-description: Dart client to search movies
+description: Very simple dart clieent wrapping the Open Movie Database API to list search responses to simple title queries. It returns titles, typee of title and poster images.
 version: 1.0.3
 homepage: https://greycastle.se
 repository: https://github.com/Greycastle/movie-database-client
