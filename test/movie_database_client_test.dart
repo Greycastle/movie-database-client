@@ -6,7 +6,6 @@ import 'package:test/test.dart';
 import 'test_settings.dart';
 
 void main() {
-
   MovieDatabaseClient client;
 
   TitleMatch matchingTitle;
@@ -19,7 +18,8 @@ void main() {
     client = new MovieDatabaseClient(apiKey);
 
     allMatches = await client.search(searchTitle);
-    matchingTitle = allMatches.firstWhere((element) => element.title == searchTitle);
+    matchingTitle =
+        allMatches.firstWhere((element) => element.title == searchTitle);
   });
 
   test('includes matching title', () {
