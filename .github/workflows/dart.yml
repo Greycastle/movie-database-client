@@ -18,5 +18,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: pub get
+    - name: Add settings
+      env:
+        settings: ${{ secrets.settings}}
+      run: |
+        echo "$env:settings" > test/settings.json
     - name: Run tests
       run: pub run test
