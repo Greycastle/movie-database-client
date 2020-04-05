@@ -1,7 +1,6 @@
 name: movie_database_client
 description: Dart client to search movies
 version: 1.0.0
-author: David Dikman
 homepage: https://greycastle.se
 
 environment:
