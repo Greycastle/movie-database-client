@@ -1,6 +1,6 @@
-import 'package:flutter_test/flutter_test.dart';
-
 import 'package:movie_database_client/movie_database_client.dart';
+
+import 'package:test/test.dart';
 
 import 'test_settings.dart';
 
