@@ -4,11 +4,11 @@ Dart client to search movies
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+To run or use this package you'll need to first get an API key from [http://omdbapi.com](http://www.omdbapi.com/apikey.aspx).
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Then you can call the API like this:
+
+```dart
+final client = new MovieDatabaseClient('your key');
+const results = await client.search('some title');
+```
