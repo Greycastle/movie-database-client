@@ -15,6 +15,8 @@ const results = await client.search('some title');
 
 ## Running tests
 
+![Dart CI](https://github.com/Greycastle/movie-database-client/workflows/Dart%20CI/badge.svg)
+
 The tests require having an API key to use as well.
 
 Copy the `test/settings.example.json` to `test/settings.json` and update the key in their with your own key. 
