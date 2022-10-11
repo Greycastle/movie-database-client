@@ -24,7 +24,7 @@ class MovieDatabaseClient {
   Future _getSearchJson(String query) async {
     final url = _getUrl(query);
 
-    final response = await http.get(url);
+    final response = await http.get(Uri.parse(url));
     final json = JsonDecoder().convert(response.body);
     return json;
   }
